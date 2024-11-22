@@ -2,3 +2,29 @@
 {"level":"info","message":"⌛ Validating example.wlk","timeElapsed":122,"timestamp":"2024-05-21T14:48:08.744Z"}
 {"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":107,"timestamp":"2024-05-21T14:48:08.938Z"}
 {"level":"info","message":"⌛ Validating example.wlk","timeElapsed":104,"timestamp":"2024-05-21T15:07:42.143Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":251,"timestamp":"2024-11-22T14:58:19.568Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/Franco/Downloads/quieres-ser-mi-novia-main/quieres-ser-mi-novia-main/2024-parcial-o-FrancoBenedetti1907","timestamp":"2024-11-22T14:58:19.588Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":108,"timestamp":"2024-11-22T14:58:19.699Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":195,"timestamp":"2024-11-22T14:58:21.123Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":310,"timestamp":"2024-11-22T14:58:21.434Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":111,"timestamp":"2024-11-22T14:58:21.547Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":176,"timestamp":"2024-11-22T14:58:21.736Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":189,"timestamp":"2024-11-22T14:58:22.483Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":164,"timestamp":"2024-11-22T14:58:22.648Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":177,"timestamp":"2024-11-22T14:58:26.273Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":255,"timestamp":"2024-11-22T14:58:26.655Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":128,"timestamp":"2024-11-22T14:58:30.249Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":161,"timestamp":"2024-11-22T14:58:30.412Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":162,"timestamp":"2024-11-22T14:58:35.201Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":214,"timestamp":"2024-11-22T14:58:35.417Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":155,"timestamp":"2024-11-22T14:58:45.073Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:c:\\Users\\Franco\\Downloads\\quieres-ser-mi-novia-main\\quieres-ser-mi-novia-main\\2024-parcial-o-FrancoBenedetti1907\\example.wlk","timestamp":"2024-11-22T14:58:45.074Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":195,"timestamp":"2024-11-22T14:58:45.269Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":161,"timestamp":"2024-11-22T14:58:45.431Z"}
+{"level":"info","message":"⌛ Validating Parcial.wlk","timeElapsed":215,"timestamp":"2024-11-22T14:58:45.708Z"}
+{"level":"info","message":"Removing diagnostics from \\Users\\Franco\\Downloads\\quieres-ser-mi-novia-main\\quieres-ser-mi-novia-main\\2024-parcial-o-FrancoBenedetti1907\\example.wlk","timestamp":"2024-11-22T14:58:45.708Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/Franco/Downloads/quieres-ser-mi-novia-main/quieres-ser-mi-novia-main/2024-parcial-o-FrancoBenedetti1907","timestamp":"2024-11-22T14:58:45.709Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":162,"timestamp":"2024-11-22T14:59:02.838Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":202,"timestamp":"2024-11-22T14:59:03.042Z"}
+{"level":"info","message":"⌛ Validating Parcial.wlk","timeElapsed":167,"timestamp":"2024-11-22T14:59:03.210Z"}
+{"failures":[],"level":"info","message":"🧪 Test runner executed on c:\\Users\\Franco\\Downloads\\quieres-ser-mi-novia-main\\quieres-ser-mi-novia-main\\2024-parcial-o-FrancoBenedetti1907","result":{"failed":0,"ok":1},"timeElapsed":624,"timestamp":"2024-11-22T14:59:06.189Z"}

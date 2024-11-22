@@ -1,9 +1,51 @@
-import example.pepita
+import Parcial.*
 
-describe "group of tests for pepita" {
+describe "group of test" {
+    const persona1 = new Persona(edad=15)
+    const persona2 = new Persona(edad=18)
+    const persona3 = new Persona(edad=20)
+    const persona4 = new Persona(edad=10)
+    const persona5 = new Persona(edad=30)
+    const persona6 = new Persona(edad=13)
+    const persona7 = new Persona(edad=19)
 
-  test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+ const alegria = new Alegria (intensidad=50)
+ const triste = new Tristeza (intensidad = 100)
+ const furia = new Furia ()
+
+
+ const examen = new Evento (impacto=20,descripcion="Secundario")
+ const partidoDeFutbol = new Evento (impacto = 50, descripcion = "Fulbito")
+
+test "es adolescente " {
+    assert.that(persona1.esAdolecente())
+}
+test "va a explotar emocionalmente con tristeza por no melancolia" {
+    triste.causa("escuela")
+    persona1.adquerirEmocion(alegria)
+    persona1.adquerirEmocion(triste)
+    assert.that(persona1.vaExplotar())
   }
+  test "va a explotar por furia"{
+    persona2.adquerirEmocion(furia)
+    furia.aprenderPal("XXXXXXXXXXXX")
+    assert.that(persona2.vaExplotar())
+  }
+test "todos vivan un evento" {
+
+    intensidadGlobal.agregarPersonas(persona1)
+    persona1.adquerirEmocion(alegria)
+    persona1.adquerirEmocion(triste)
+    triste.causa("familia")
+    intensidadGlobal.agregarPersonas(persona4)
+    persona4.adquerirEmocion(furia)
+    furia.aprenderPal("YYYYYYYYYYYYYY")
+    
+    
+    intensidadGlobal.vivirEventoEnGrupo (partidoDeFutbol)
+    assert.equals(50, furia.intensidad())
+    assert.equals(0, alegria.intensidad())
+    assert.equals("Fulbito", triste.causa())
+}
 
 }
